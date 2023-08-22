@@ -27,4 +27,4 @@ jobs:
         uses: mikepenz/gradle-dependency-submission@main
         with:
           gradle-project-path: ""
-          gradle-build-module: ":app"
+          gradle-build-module: ":app", ":firstModule", ":secondModule"
