@@ -105,7 +105,7 @@ dependencies {
     implementation("androidx.hilt:hilt-work:1.0.0")
 
     //Google Libraries
-    implementation("com.google.accompanist:accompanist-navigation-animation:0.30.0")
+    implementation("com.google.accompanist:accompanist-navigation-animation:0.32.0")
     api("com.google.android.material:material:1.8.0")
     api("com.google.code.gson:gson:2.10.1")
 
@@ -163,7 +163,7 @@ dependencies {
     implementation("androidx.compose.ui:ui:1.4.3")
     implementation("androidx.compose.material:material:1.4.3")
     implementation("androidx.navigation:navigation-compose:2.5.3")
-    implementation("com.google.accompanist:accompanist-navigation-animation:0.30.0")
+    implementation("com.google.accompanist:accompanist-navigation-animation:0.32.0")
     implementation("com.google.accompanist:accompanist-pager:0.30.0")
     implementation("androidx.compose.ui:ui-util:1.4.3")
     implementation("com.google.accompanist:accompanist-webview:0.30.0")
