@@ -11,9 +11,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/aarmodule-autoinjector" />
+            <option value="$PROJECT_DIR$/aarmodule-lillyanalytics" />
+            <option value="$PROJECT_DIR$/aarmodule-lillycloud" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/firstModule" />
             <option value="$PROJECT_DIR$/secondModule" />
+            <option value="$PROJECT_DIR$/shared-release" />
           </set>
         </option>
       </GradleProjectSettings>

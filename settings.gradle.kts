@@ -18,3 +18,7 @@ rootProject.name = "TestDependabotVulnerabilities"
 include(":app")
 include(":firstModule")
 include(":secondModule")
+include(":shared-release")
+include(":aarmodule-lillyanalytics")
+include(":aarmodule-lillycloud")
+include(":aarmodule-autoinjector")

@@ -126,11 +126,11 @@ dependencies {
     //Image Handling & Animation
     api("com.github.bumptech.glide:glide:4.15.1")
 
-    /*//Charting
+    //Charting
     api("com.github.PhilJay:MPAndroidChart:v3.1.0")
 
     //Tool Tips
-    api("com.github.douglasjunior:android-simple-tooltip:1.1.0")*/
+    api("com.github.douglasjunior:android-simple-tooltip:1.1.0")
 
     //Database Encryption
     api("net.zetetic:android-database-sqlcipher:4.5.3")

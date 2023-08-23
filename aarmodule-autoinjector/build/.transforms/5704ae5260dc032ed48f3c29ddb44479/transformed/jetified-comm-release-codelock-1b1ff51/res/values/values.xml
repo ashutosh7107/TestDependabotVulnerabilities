@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LillyAutoInjector</string>
+    <string name="blank"> </string>
+    <string name="body_feedback_error">Would you like to log an injection event? Next time you inject, be sure to keep the autoinjector pressed firmly against your injection site for the entire injection cycle.</string>
+    <string name="body_feedback_success">Your injection event was logged for today %s. This means the autoinjector was kept on the injection site throughout the injection cycle. If this wasn\'t your injection event, please remove the injection event.</string>
+    <string name="body_logbook_error">Injection data was not received</string>
+    <string name="body_logbook_success">Injection data has been received</string>
+    <string name="title_feedback_error">An injection has not been logged.</string>
+    <string name="title_feedback_success">Injection Recorded.</string>
+    <string name="title_logbook_error">Injection data was not received</string>
+    <string name="title_logbook_success">Injection data has been received</string>
+</resources>

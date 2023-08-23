@@ -1,0 +1,14 @@
+io.github.douglasjunior.androidSimpleTooltip
+color colorAccent
+color simpletooltip_arrow
+color simpletooltip_background
+color simpletooltip_text
+dimen simpletooltip_animation_padding
+dimen simpletooltip_arrow_height
+dimen simpletooltip_arrow_width
+dimen simpletooltip_margin
+dimen simpletooltip_overlay_offset
+dimen simpletooltip_padding
+integer simpletooltip_animation_duration
+integer simpletooltip_overlay_alpha
+style simpletooltip_default

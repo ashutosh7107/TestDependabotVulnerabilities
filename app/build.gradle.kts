@@ -53,6 +53,11 @@ android {
 
 dependencies {
 
+    //LillyTogether Modules
+    api(":aarmodule-autoinjector")
+    api(":aarmodule-lillyanalytics")
+    api(":shared-release")
+
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
     implementation("androidx.activity:activity-compose:1.7.0")
