@@ -110,8 +110,8 @@ dependencies {
     api("com.google.code.gson:gson:2.10.1")
 
     //Kotlin Extension Libraries
-    api("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
-    api("org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4")
+    api("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+    api("org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.7.3")
     api("org.jetbrains.kotlinx:kotlinx-datetime:0.4.0")
     api("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.0")
 
@@ -151,5 +151,5 @@ dependencies {
     testImplementation("io.mockk:mockk:1.13.5")
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.4")
-    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
 }
