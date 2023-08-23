@@ -31,3 +31,4 @@ jobs:
             :app
             :firstModule
             :secondModule
+          sub-module-mode: 'INDIVIDUAL_DEEP'
