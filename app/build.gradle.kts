@@ -110,7 +110,7 @@ dependencies {
     implementation("androidx.hilt:hilt-work:1.0.0")
 
     //Google Libraries
-    implementation("com.google.accompanist:accompanist-navigation-animation:0.30.0")
+    implementation("com.google.accompanist:accompanist-navigation-animation:0.32.0")
     api("com.google.android.material:material:1.8.0")
     api("com.google.code.gson:gson:2.10.1")
 
