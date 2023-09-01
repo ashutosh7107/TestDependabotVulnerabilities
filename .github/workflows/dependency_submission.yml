@@ -36,7 +36,7 @@ jobs:
       - name: Export Dependabot alerts
         uses: anyroadcom/dependabot-alert-export@main
         with:
-          GITHUB_TOKEN: ${{secrets.DEPENDABOT_TOKEN}}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           org_name: 'ashutosh7107'
           repo_name: 'TestDependabotVulnerabilities'
           csv_path: data/vulnerability.csv
