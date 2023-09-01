@@ -32,3 +32,17 @@ jobs:
             :firstModule
             :secondModule
           sub-module-mode: 'INDIVIDUAL_DEEP'
+
+      - name: Export Dependabot alerts
+        uses: anyroadcom/dependabot-alert-export@main
+        with:
+          GITHUB_TOKEN: ${{secrets.DEPENDABOT_TOKEN}}
+          org_name: 'ashutosh7107'
+          repo_name: 'TestDependabotVulnerabilities'
+          csv_path: data/vulnerability.csv
+
+      - name: Upload Vulnerability report
+        uses: actions/upload-artifact@v3
+        with:
+          name: vulnerability_report
+          path: data/vulnerability.csv
