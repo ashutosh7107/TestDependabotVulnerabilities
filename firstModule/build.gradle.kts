@@ -140,8 +140,8 @@ dependencies {
     //Logging
     api("com.jakewharton.timber:timber:5.0.1")
 
-    implementation("com.squareup.okhttp3:okhttp:4.10.0")
-    implementation("com.squareup.okhttp3:logging-interceptor:4.10.0")
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
 
     //Room DB
     implementation("androidx.room:room-runtime:2.5.1")
