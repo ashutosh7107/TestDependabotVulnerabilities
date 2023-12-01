@@ -92,7 +92,7 @@ dependencies {
     
     // Kaltura
     api("com.kaltura.playkit:playkit:4.28.0")
-    api("com.kaltura.playkit:playkitproviders:4.28.0")
+    api("com.kaltura.playkit:playkitproviders:4.30.1")
     implementation("androidx.hilt:hilt-work:1.0.0")
     implementation("com.google.dagger:hilt-android:2.45")
     // google's location service
